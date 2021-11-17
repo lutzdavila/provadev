@@ -1,0 +1,32 @@
+{
+  "compras": [
+    {
+      "cpf": "70169880664",
+      "numero_cartao": "12134232524",
+      "prazo": "11/09",
+      "codigo_resgate": "oi093i094i209",
+      "id": 6
+    },
+    {
+      "cpf": "70169880664",
+      "numero_cartao": "asdasd",
+      "prazo": "asd",
+      "codigo_resgate": "asd",
+      "id": 7
+    },
+    {
+      "cpf": "asda",
+      "numero_cartao": "asd",
+      "prazo": "asd",
+      "codigo_resgate": "asd",
+      "id": 8
+    },
+    {
+      "cpf": "2",
+      "numero_cartao": "02",
+      "prazo": "2",
+      "codigo_resgate": "2",
+      "id": 9
+    }
+  ]
+}

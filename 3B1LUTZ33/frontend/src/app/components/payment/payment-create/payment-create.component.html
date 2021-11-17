@@ -1,0 +1,28 @@
+<mat-card>
+  <mat-card-title>Novo Pagamento</mat-card-title>
+  <form>
+      <mat-form-field>
+          <input matInput placeholder="cpf"
+              [(ngModel)]="payment.cpf" name="cpf">
+      </mat-form-field>
+      <mat-form-field>
+          <input matInput placeholder="Numero cartao"
+              [(ngModel)]="payment.numero_cartao" name="numero_cartao">
+      </mat-form-field>
+      <mat-form-field>
+        <input matInput placeholder="prazo"
+            [(ngModel)]="payment.prazo" name="prazo">
+    </mat-form-field>
+    <mat-form-field>
+        <input matInput placeholder="Código resgate"
+            [(ngModel)]="payment.codigo_resgate" name="codigo_resgate">
+    </mat-form-field>
+  </form>
+  <button mat-raised-button (click)="createPayment()" color="primary">
+      Salvar
+  </button>
+  
+  <button mat-raised-button (click)="cancel()">
+      Cancelar
+  </button>
+</mat-card>
